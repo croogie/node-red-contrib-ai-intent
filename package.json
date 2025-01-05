@@ -1,5 +1,5 @@
 {
-  "name": "@technithusiast/node-red-contrib-ai-intent",
+  "name": "croogie/node-red-contrib-ai-intent",
   "version": "2.1.2",
   "description": "A collection of nodes to elevate a user's automation interactions",
   "scripts": {
@@ -31,7 +31,7 @@
     }
   },
   "author": "Michael Montaque",
-  "url": "https://github.com/montaque22/node-red-contrib-ai-intent",
+  "url": "https://github.com/croogie/node-red-contrib-ai-intent",
   "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",

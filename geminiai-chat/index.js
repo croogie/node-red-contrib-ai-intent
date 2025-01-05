@@ -62,8 +62,12 @@ module.exports = function (RED) {
         },
       };
 
+      console.log(JSON.stringify(modelParams, null, 2));
+
       // The Gemini 1.5 models are versatile and work with most use cases
       const model = genAI.getGenerativeModel(modelParams);
+
+      console.log(JSON.stringify(finalProps, null, 2));
 
       const chat = model.startChat({
         history: finalProps.history,
