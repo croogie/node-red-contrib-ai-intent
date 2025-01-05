@@ -34,7 +34,7 @@
   "url": "https://github.com/montaque22/node-red-contrib-ai-intent",
   "license": "ISC",
   "dependencies": {
-    "@google/generative-ai": "^0.11.5",
+    "@google/generative-ai": "^0.21.0",
     "jsonrepair": "^3.4.1",
     "node-localstorage": "^3.0.5",
     "ollama": "^0.5.1",
